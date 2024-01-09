@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kalkulator BMI</title>
+  <meta name="description" content="Wskaźnik BMI (body mass index) wyraża stosunek indywidualnej masy ciała do wzrostu, którego wynik może pomóc nam w odpowiedzi na pytanie “Czy moja masa ciała jest właściwa?”">
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+  <div class="container">
+    <nav id="your-bmi">Twoje BMI</nav>
+    <div class="calculator">
+      <div class="lang-buttons">
+        <button class="lang-button" id="english"></button>
+        <button class="lang-button" id="polish"></button>
+      </div>
+      <p id="des-1">
+        Wskaźnik BMI (body mass index) wyraża stosunek indywidualnej masy ciała do wzrostu, którego wynik może pomóc nam w odpowiedzi na pytanie “Czy moja masa ciała jest właściwa?”
+      </p>
+      <p id="des-2">
+        Wprowadź masę w kilogramach i wysokość w centymetrach: 
+      </p>
+      <input id="mass" type="number" placeholder="Masa (w kg)">
+      <input id="height" type="number" placeholder="Wysokość (w cm)">
+      <button class="calculate" id="button">Oblicz</button>
+      <div class="result"></div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
