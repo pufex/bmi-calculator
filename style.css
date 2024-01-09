@@ -57,10 +57,10 @@ nav{
 }
 
 #english{
-  background-image: url('/img/english.jpg');
+  background-image: url('english.jpg');
 }
 #polish{
-  background-image: url('/img/poland.jpg');
+  background-image: url('poland.jpg');
 }
 
 .calculator p{
