@@ -18,6 +18,7 @@ english.addEventListener('click', () => {
     des2.textContent = "Enter weight and height in the fields below and click the button.";
     btn2.classList.remove('hidden');
     btn.classList.add('hidden');
+    result.textContent = '';
 })
 
 polish.addEventListener('click', () => {
@@ -28,6 +29,7 @@ polish.addEventListener('click', () => {
     des2.textContent = "Wprowadź masę w kilogramach i wysokość w centymetrach:";
     btn2.classList.add('hidden');
     btn.classList.remove('hidden')
+    result.textContent = '';
   })
 
 
