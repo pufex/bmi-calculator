@@ -120,4 +120,8 @@ nav{
     border: none;
     border-radius: 0;
   }
+
+  .lang-button{
+    transform: scale(2);
+  }
 }
