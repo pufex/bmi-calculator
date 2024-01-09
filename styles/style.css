@@ -46,6 +46,7 @@ nav{
 }
 
 .lang-button{
+  text: none;
   display: block;
   min-height: 20px;
   margin: 2px;
@@ -57,10 +58,10 @@ nav{
 }
 
 #english{
-  background-image: url('./img/english.jpg');
+  background-image: url('/img/english.jpg');
 }
 #polish{
-  background-image: url('./img/poland.jpg');
+  background-image: url('/img/poland.jpg');
 }
 
 .calculator p{
@@ -105,6 +106,10 @@ nav{
 
 .error{
   color: red;
+}
+
+.hidden{
+  display: none;
 }
 
 @media screen and (max-width: 450px){
