@@ -123,5 +123,10 @@ nav{
 
   .lang-button{
     transform: scale(2);
+    transform: translate(50%, 50%);
+  }
+
+  .calculator p{
+    margin-top: 30px
   }
 }
