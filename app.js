@@ -15,7 +15,7 @@ english.addEventListener('click', () => {
     m.placeholder = 'Weight';
     h.placeholder = 'Height';
     des1.textContent = "Body mass index (BMI) is a measure of body fat based on height and weight that applies to adult men and women.";
-    des2.textContent = "Enter weight and height in the fields below and click the button.";
+    des2.textContent = "Enter weight in kilogrames and height in meters the fields below and click the button.";
     btn2.classList.remove('hidden');
     btn.classList.add('hidden');
     result.textContent = '';
